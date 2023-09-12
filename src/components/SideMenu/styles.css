@@ -1,0 +1,79 @@
+.SideMenu{
+    height: 100vh;
+    width: auto;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 2;
+}
+.ScrollMenu{
+    height: 100%;
+    overflow-y: scroll;
+}
+.MenuTop{
+    width: 180px;
+    padding: 0px 22px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.MenuTopIcon{
+    padding: 18px 64px 18px 0px;
+    cursor: pointer;
+}
+
+.Menu{
+    border-bottom: 1px solid #e5e5e5;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.MenuTitle{
+    width: 192px;
+    height: 22px;
+    font-size: 16px;
+    padding: 0px 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.MenuItem{
+    width: 180px;
+    height: 40px;
+    padding: 0px 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+.MenuItem>svg{
+    margin-right: 24px;
+}
+.MenuItem>img{
+    margin-right: 24px;
+}
+.MenuItem>p{
+    width: 132px;
+    height: 20px;
+}
+.SideMenuAvatar{
+    border-radius: 50%;
+}
+
+.SmallMenu{
+    padding: 16px 24px 0px 24px;
+}
+.SmallMenuItem{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.SmallMenuItem>p{
+    margin-right: 8px;
+    font-size: 13px;
+    color: rgb(96, 96, 96);
+    font-weight: 500;
+}

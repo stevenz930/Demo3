@@ -1,0 +1,50 @@
+.container{
+  background-color: white;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+.main{
+  left: 280px;
+  top: 120px;
+  position: relative;
+  width: 84%;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 0;
+}
+.mainItem{
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 4px solid #e5e5e5;
+}
+.mainItemShortTitle{
+  display: flex;
+  flex-wrap: wrap;
+  height: 40px;
+  margin: 24px 8px;
+  font-size: 20px;
+}
+.mainItemShort>svg{
+  margin-right: 8px;
+}
+.mainItemShort{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+}
+.viewMore{
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 4px solid #e5e5e5;
+  padding: 8px 0px;
+  margin-bottom: 42px;
+  cursor: pointer;
+}
+.viewMore:hover{
+  background-color: #e5e5e5;
+}

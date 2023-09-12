@@ -1,0 +1,21 @@
+.ShortVideoBlock{
+    display: flex;
+    flex-direction: column;
+    width: 242px;
+    height: 508px;
+    margin: 0px 8px 20px 8px;
+}
+.ShortVideoBlockInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80px;
+}
+.ShortVideoBlockTitle{
+    font-size: 20px;
+    padding-top: 12px;
+    padding-right: 24px;
+}
+.ShortVideoBlockViews{
+    font-size: 16px;
+}
